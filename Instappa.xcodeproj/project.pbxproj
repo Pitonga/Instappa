@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		C4B553751C8BBC0700CE2BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B553741C8BBC0700CE2BA4 /* AppDelegate.swift */; };
-		C4B553771C8BBC0700CE2BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B553761C8BBC0700CE2BA4 /* ViewController.swift */; };
 		C4B5537A1C8BBC0700CE2BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B553781C8BBC0700CE2BA4 /* Main.storyboard */; };
 		C4B5537C1C8BBC0700CE2BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B5537B1C8BBC0700CE2BA4 /* Assets.xcassets */; };
 		C4B5537F1C8BBC0700CE2BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B5537D1C8BBC0700CE2BA4 /* LaunchScreen.storyboard */; };
+		C4B553871C8BD42700CE2BA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B553861C8BD42700CE2BA4 /* LoginViewController.swift */; };
+		C4B553891C8C6BC800CE2BA4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B553881C8C6BC800CE2BA4 /* HomeViewController.swift */; };
+		C4B5538E1C8C6D4B00CE2BA4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B5538D1C8C6D4B00CE2BA4 /* Post.swift */; };
+		C4B553901C8C799F00CE2BA4 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B5538F1C8C799F00CE2BA4 /* CaptureViewController.swift */; };
+		C4B553921C8C79B300CE2BA4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B553911C8C79B300CE2BA4 /* ProfileViewController.swift */; };
+		C4B553961C8D14E200CE2BA4 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B553951C8D14E200CE2BA4 /* PostCell.swift */; };
+		C87E7BFA96964F168B42A664 /* Pods_Instappa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16B732459149613B150A544 /* Pods_Instappa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284474651D0E111B17B400A0 /* Pods-Instappa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instappa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instappa/Pods-Instappa.release.xcconfig"; sourceTree = "<group>"; };
+		531B0C239B1951810A1B11F7 /* Pods-Instappa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instappa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instappa/Pods-Instappa.debug.xcconfig"; sourceTree = "<group>"; };
 		C4B553711C8BBC0700CE2BA4 /* Instappa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instappa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B553741C8BBC0700CE2BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4B553761C8BBC0700CE2BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4B553791C8BBC0700CE2BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4B5537B1C8BBC0700CE2BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4B5537E1C8BBC0700CE2BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4B553801C8BBC0700CE2BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4B553861C8BD42700CE2BA4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4B553881C8C6BC800CE2BA4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C4B5538D1C8C6D4B00CE2BA4 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C4B5538F1C8C799F00CE2BA4 /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		C4B553911C8C79B300CE2BA4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C4B553951C8D14E200CE2BA4 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E16B732459149613B150A544 /* Pods_Instappa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instappa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87E7BFA96964F168B42A664 /* Pods_Instappa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CEE53B1C7D455127FD4D427 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				531B0C239B1951810A1B11F7 /* Pods-Instappa.debug.xcconfig */,
+				284474651D0E111B17B400A0 /* Pods-Instappa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4B553681C8BBC0700CE2BA4 = {
 			isa = PBXGroup;
 			children = (
 				C4B553731C8BBC0700CE2BA4 /* Instappa */,
-				C4B553721C8BBC0700CE2BA4 /* Products */,
+				0CEE53B1C7D455127FD4D427 /* Pods */,
+				C7559C34BD99E19463AE6FE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,19 +74,50 @@
 				C4B553711C8BBC0700CE2BA4 /* Instappa.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		C4B553731C8BBC0700CE2BA4 /* Instappa */ = {
 			isa = PBXGroup;
 			children = (
-				C4B553741C8BBC0700CE2BA4 /* AppDelegate.swift */,
-				C4B553761C8BBC0700CE2BA4 /* ViewController.swift */,
+				C4B5538B1C8C6CE500CE2BA4 /* ViewControllers */,
+				C4B5538C1C8C6CF800CE2BA4 /* Models */,
+				C4B553721C8BBC0700CE2BA4 /* Products */,
 				C4B553781C8BBC0700CE2BA4 /* Main.storyboard */,
 				C4B5537B1C8BBC0700CE2BA4 /* Assets.xcassets */,
 				C4B5537D1C8BBC0700CE2BA4 /* LaunchScreen.storyboard */,
 				C4B553801C8BBC0700CE2BA4 /* Info.plist */,
 			);
 			path = Instappa;
+			sourceTree = "<group>";
+		};
+		C4B5538B1C8C6CE500CE2BA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4B553741C8BBC0700CE2BA4 /* AppDelegate.swift */,
+				C4B553861C8BD42700CE2BA4 /* LoginViewController.swift */,
+				C4B553881C8C6BC800CE2BA4 /* HomeViewController.swift */,
+				C4B5538F1C8C799F00CE2BA4 /* CaptureViewController.swift */,
+				C4B553911C8C79B300CE2BA4 /* ProfileViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C4B5538C1C8C6CF800CE2BA4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4B5538D1C8C6D4B00CE2BA4 /* Post.swift */,
+				C4B553951C8D14E200CE2BA4 /* PostCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C7559C34BD99E19463AE6FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E16B732459149613B150A544 /* Pods_Instappa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4B553831C8BBC0700CE2BA4 /* Build configuration list for PBXNativeTarget "Instappa" */;
 			buildPhases = (
+				746F452B08D991E4D2558243 /* Check Pods Manifest.lock */,
 				C4B5536D1C8BBC0700CE2BA4 /* Sources */,
 				C4B5536E1C8BBC0700CE2BA4 /* Frameworks */,
 				C4B5536F1C8BBC0700CE2BA4 /* Resources */,
+				79C1056E84C0C5E6C547E587 /* Embed Pods Frameworks */,
+				99508B5636177B9426679654 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +189,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		746F452B08D991E4D2558243 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79C1056E84C0C5E6C547E587 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instappa/Pods-Instappa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99508B5636177B9426679654 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Instappa/Pods-Instappa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4B5536D1C8BBC0700CE2BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B553771C8BBC0700CE2BA4 /* ViewController.swift in Sources */,
+				C4B553871C8BD42700CE2BA4 /* LoginViewController.swift in Sources */,
+				C4B553901C8C799F00CE2BA4 /* CaptureViewController.swift in Sources */,
 				C4B553751C8BBC0700CE2BA4 /* AppDelegate.swift in Sources */,
+				C4B553961C8D14E200CE2BA4 /* PostCell.swift in Sources */,
+				C4B553921C8C79B300CE2BA4 /* ProfileViewController.swift in Sources */,
+				C4B553891C8C6BC800CE2BA4 /* HomeViewController.swift in Sources */,
+				C4B5538E1C8C6D4B00CE2BA4 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +359,7 @@
 		};
 		C4B553841C8BBC0700CE2BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531B0C239B1951810A1B11F7 /* Pods-Instappa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Instappa/Info.plist;
@@ -258,6 +371,7 @@
 		};
 		C4B553851C8BBC0700CE2BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284474651D0E111B17B400A0 /* Pods-Instappa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Instappa/Info.plist;
@@ -286,6 +400,7 @@
 				C4B553851C8BBC0700CE2BA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
